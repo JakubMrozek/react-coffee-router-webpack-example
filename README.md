@@ -1,8 +1,18 @@
-# CoffeeScript + React + Router
+# CoffeeScript + React + Router + Webpack dev server
+
+## Install
 
 ```
-npm install --g coffee-react browserify
-cjsx -cb main.cjsx
-browserify main.js -o public/bundle.js
+$ npm install -g webpack
+$ npm install
 ```
+
+## Start dev server
+
+```
+$ webpack-dev-server --content-base public/ --inline --hot
+$ open http://localhost:8080
+```
+
+
 
