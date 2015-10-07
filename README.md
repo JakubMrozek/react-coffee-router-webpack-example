@@ -1,2 +1,4 @@
-# react-examples
-Simple react examples
+# CoffeeScript + React 
+
+```browserify -t babelify main.js -o public/bundle.js```
+

@@ -1,0 +1,26 @@
+{
+  "name": "coffee-react-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JakubMrozek/coffee-react-example.git"
+  },
+  "author": "Jakub Mrozek",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JakubMrozek/coffee-react-example/issues"
+  },
+  "homepage": "https://github.com/JakubMrozek/coffee-react-example#readme",
+  "dependencies": {
+    "babelify": "^6.3.0",
+    "express": "^4.13.3",
+    "react": "^0.14.0",
+    "react-dom": "^0.14.0",
+    "react-router": "^1.0.0-rc1"
+  }
+}
