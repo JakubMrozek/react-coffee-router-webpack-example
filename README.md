@@ -1,4 +1,8 @@
-# CoffeeScript + React 
+# CoffeeScript + React + Router
 
-```browserify -t babelify main.js -o public/bundle.js```
+```
+npm install --g coffee-react browserify
+cjsx -cb main.cjsx
+browserify main.js -o public/bundle.js
+```
 
